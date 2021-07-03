@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		6E2D1A9A268E21DD00A61753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D1A99268E21DD00A61753 /* AppDelegate.m */; };
-		6E2D1AA0268E21DD00A61753 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D1A9F268E21DD00A61753 /* MainViewController.m */; };
+		6E2D1AA0268E21DD00A61753 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D1A9F268E21DD00A61753 /* LoginViewController.m */; };
 		6E2D1AA5268E21E100A61753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2D1AA4268E21E100A61753 /* Assets.xcassets */; };
 		6E2D1AA8268E21E100A61753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2D1AA6268E21E100A61753 /* LaunchScreen.storyboard */; };
 		6E2D1AAB268E21E100A61753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D1AAA268E21E100A61753 /* main.m */; };
+		6E2D1AC7268F051D00A61753 /* AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D1AC6268F051D00A61753 /* AppColors.m */; };
+		6E2D1ACD268F0BCA00A61753 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E2D1ABC268EF9D100A61753 /* LoginView.xib */; };
+		6E2D1ACF268F0BCE00A61753 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D1AC2268F011B00A61753 /* LoginView.m */; };
+		6E2D1AD6268F714800A61753 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2D1AD5268F714800A61753 /* QuartzCore.framework */; };
+		6E2D1AE1268F9EE300A61753 /* AuthorizationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2D1AE0268F9EE300A61753 /* AuthorizationModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E2D1A95268E21DD00A61753 /* ios task 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios task 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2D1A98268E21DD00A61753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E2D1A99268E21DD00A61753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6E2D1A9E268E21DD00A61753 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		6E2D1A9F268E21DD00A61753 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6E2D1A9E268E21DD00A61753 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6E2D1A9F268E21DD00A61753 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		6E2D1AA4268E21E100A61753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E2D1AA7268E21E100A61753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E2D1AA9268E21E100A61753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E2D1AAA268E21E100A61753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E2D1ABA268E2B2400A61753 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		6E2D1ABC268EF9D100A61753 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		6E2D1AC1268F011B00A61753 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		6E2D1AC2268F011B00A61753 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		6E2D1AC5268F051D00A61753 /* AppColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppColors.h; sourceTree = "<group>"; };
+		6E2D1AC6268F051D00A61753 /* AppColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppColors.m; sourceTree = "<group>"; };
+		6E2D1AD5268F714800A61753 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6E2D1ADF268F9EE300A61753 /* AuthorizationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationModel.h; sourceTree = "<group>"; };
+		6E2D1AE0268F9EE300A61753 /* AuthorizationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2D1AD6268F714800A61753 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,7 @@
 			children = (
 				6E2D1A97268E21DD00A61753 /* ios task 7 */,
 				6E2D1A96268E21DD00A61753 /* Products */,
+				6E2D1AD4268F714800A61753 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,16 +72,40 @@
 		6E2D1A97268E21DD00A61753 /* ios task 7 */ = {
 			isa = PBXGroup;
 			children = (
+				6E2D1AC5268F051D00A61753 /* AppColors.h */,
+				6E2D1AC6268F051D00A61753 /* AppColors.m */,
 				6E2D1A98268E21DD00A61753 /* AppDelegate.h */,
 				6E2D1A99268E21DD00A61753 /* AppDelegate.m */,
-				6E2D1A9E268E21DD00A61753 /* MainViewController.h */,
-				6E2D1A9F268E21DD00A61753 /* MainViewController.m */,
 				6E2D1AA4268E21E100A61753 /* Assets.xcassets */,
-				6E2D1AA6268E21E100A61753 /* LaunchScreen.storyboard */,
 				6E2D1AA9268E21E100A61753 /* Info.plist */,
+				6E2D1AA6268E21E100A61753 /* LaunchScreen.storyboard */,
+				6E2D1AC9268F0A7E00A61753 /* LoginView */,
+				6E2D1A9E268E21DD00A61753 /* LoginViewController.h */,
+				6E2D1A9F268E21DD00A61753 /* LoginViewController.m */,
 				6E2D1AAA268E21E100A61753 /* main.m */,
+				6E2D1ABA268E2B2400A61753 /* Storyboard.storyboard */,
+				6E2D1ADF268F9EE300A61753 /* AuthorizationModel.h */,
+				6E2D1AE0268F9EE300A61753 /* AuthorizationModel.m */,
 			);
 			path = "ios task 7";
+			sourceTree = "<group>";
+		};
+		6E2D1AC9268F0A7E00A61753 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				6E2D1AC1268F011B00A61753 /* LoginView.h */,
+				6E2D1AC2268F011B00A61753 /* LoginView.m */,
+				6E2D1ABC268EF9D100A61753 /* LoginView.xib */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		6E2D1AD4268F714800A61753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E2D1AD5268F714800A61753 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +166,7 @@
 			files = (
 				6E2D1AA8268E21E100A61753 /* LaunchScreen.storyboard in Resources */,
 				6E2D1AA5268E21E100A61753 /* Assets.xcassets in Resources */,
+				6E2D1ACD268F0BCA00A61753 /* LoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E2D1AA0268E21DD00A61753 /* MainViewController.m in Sources */,
+				6E2D1AA0268E21DD00A61753 /* LoginViewController.m in Sources */,
+				6E2D1AE1268F9EE300A61753 /* AuthorizationModel.m in Sources */,
 				6E2D1A9A268E21DD00A61753 /* AppDelegate.m in Sources */,
+				6E2D1AC7268F051D00A61753 /* AppColors.m in Sources */,
+				6E2D1ACF268F0BCE00A61753 /* LoginView.m in Sources */,
 				6E2D1AAB268E21E100A61753 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

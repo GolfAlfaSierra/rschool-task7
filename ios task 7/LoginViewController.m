@@ -5,19 +5,20 @@
 //  Created by John Kent on 01.07.2021.
 //
 
-#import "MainViewController.h"
+#import "LoginViewController.h"
+#import "AppColors.h"
 
-@interface MainViewController ()
-
+@interface LoginViewController ()
 @end
 
-@implementation MainViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
+//    self.view.backgroundColor = AppColors.littleBoyBlue;
     
-    self.view.backgroundColor = UIColor.redColor;
     
     // Do any additional setup after loading the view.
 }
