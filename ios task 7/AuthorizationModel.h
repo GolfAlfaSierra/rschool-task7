@@ -7,10 +7,22 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+
+
+typedef NSArray AuthorizationMessages;
+
+typedef NS_ENUM(NSInteger, AppAuthorizationMessage) {
+    AppAuthorizationStatusLogin,
+    AppAuthorizationStatusPassword,
+    AppAuthorizationStatusOk
+};
+
 
 @interface AuthorizationModel : NSObject
 
++(AuthorizationMessages*)authorizeWithLogin:(NSString*)login andPassword:(NSString*)password;
++(BOOL)checkPinCode:(NSString*)code;
+
 @end
 
-NS_ASSUME_NONNULL_END
+

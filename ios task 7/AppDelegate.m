@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LoginViewController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
     
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    LoginViewController *rootVC = [[LoginViewController alloc] init];
+    MainViewController *rootVC = [[MainViewController alloc] initWithNibName:@"LoginView" bundle:nil];
     [window setRootViewController:rootVC];
     
     self.window = window;

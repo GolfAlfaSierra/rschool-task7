@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end
 
